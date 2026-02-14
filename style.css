@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Fredoka', sans-serif;
-    background: url("background.jpg") no-repeat center center fixed;
+    background: url("background.gif") no-repeat center center fixed;
     background-size: cover;
     text-align: center;
 }
@@ -61,3 +61,4 @@ button:hover {
     font-size: 2em;
     color: #ff2e7a;
 }
+
