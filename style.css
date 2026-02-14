@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+    background: url("background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    padding-top: 60px;
+}
+
+.girl {
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.dialogue {
+    display: inline-block;
+    position: relative;
+}
+
+.dialogue-img {
+    width: 350px;
+}
+
+.text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 22px;
+    color: #ff2e7a;
+    font-weight: 600;
+    width: 80%;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-family: 'Fredoka', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 12px;
+    background-color: #ff5fa2;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.result {
+    margin-top: 150px;
+    font-size: 2em;
+    color: #ff2e7a;
+}
